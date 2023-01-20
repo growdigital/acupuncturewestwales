@@ -1,3 +1,5 @@
+![Painting of green/blue sea header image](/assets/images/header.jpg)
+
 ## Audley Burnett MA Cantab Lic Ac MBAcC
 ### Established 1992
 
