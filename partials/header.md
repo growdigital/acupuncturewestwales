@@ -5,4 +5,4 @@
 
 [01559 371 767](tel:+4401559371767)
 [07980 986 808](tel:+4407980986808)
-<hello@acupuncturewestwales.co.uk>
+[hello@acupuncturewestwales.co.uk(mailto:hello@acupuncturewestwales.co.uk)
