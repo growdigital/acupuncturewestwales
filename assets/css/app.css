@@ -50,6 +50,10 @@ a:active {
 
 /* GLOBAL */
 
+.address {
+  font-style: normal;
+}
+
 .button {
   background-color: #006e6f;
   border: 1px solid white;
@@ -67,8 +71,6 @@ a:active {
 }
 
 .menu {
-  display: flex;
-  justify-content: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -132,6 +134,8 @@ a:active {
 .header__menu {
   background-color: #54b0a7;
   color: white;
+  display: flex;
+  justify-content: center;
   font-size: 1.1rem;
 }
 
@@ -154,7 +158,7 @@ a:active {
 /* SECTIONS */
 
 .section {
-  padding: 4rem 0;
+  padding: 3rem 0 3rem;
 }
 
 .hero {
@@ -197,4 +201,23 @@ a:active {
 
 .location a {
   font-size: 2rem;
+}
+
+/* FOOTER */
+
+.footer {
+  align-items: center;
+  background-color: #333333;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2rem;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer .address {
+  text-align: center;
 }
