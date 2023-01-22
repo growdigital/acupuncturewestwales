@@ -57,6 +57,7 @@ a:active {
 .button {
   background-color: #006e6f;
   border: 1px solid white;
+  border-radius: 3px;
   display: inline-block;
   padding: 0.8rem 1rem;
 }
@@ -206,12 +207,9 @@ a:active {
 /* FOOTER */
 
 .footer {
-  align-items: center;
   background-color: #333333;
   color: white;
-  display: flex;
-  justify-content: space-around;
-  padding: 0 2rem;
+  padding: 2rem 2rem 4rem;
 }
 
 .footer p {
@@ -220,4 +218,23 @@ a:active {
 
 .footer .address {
   text-align: center;
+}
+
+.footer__wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .menu > * {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.footer .smalltype {
+  text-align: center;
+}
+
+a img:hover {
+  opacity: 0.7;
 }
