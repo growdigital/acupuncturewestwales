@@ -54,6 +54,12 @@ a:active {
   font-style: normal;
 }
 
+.address {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .button {
   background-color: #006e6f;
   border: 1px solid white;
@@ -237,4 +243,38 @@ a:active {
 
 a img:hover {
   opacity: 0.7;
+}
+
+/* LAYOUT */
+
+.page .main {
+  padding-top: 3rem;
+}
+
+.flex-layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-left {
+  width: 70%;
+/*  height: 100vh;*/
+  padding-right: 3rem;
+}
+
+.flex-right {
+  padding-top: 6rem;
+  width: 30%;
+}
+
+.img-width {
+  width: 100%;
+}
+
+.aside {
+  font-style: italic;
+}
+
+.page .footer {
+  margin-top: 4rem;
 }
