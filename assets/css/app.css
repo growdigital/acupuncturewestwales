@@ -38,9 +38,41 @@ a:active {
   font-size: small;
 }
 
+/* GLOBAL */
+
+.button {
+  background-color: #006e6f;
+  border: 1px solid white;
+  display: inline-block;
+  padding: 0.8rem 1rem;
+}
+
+.button:link, .button:visited {
+  color: white;
+}
+
+.button:hover {
+  background-color: #111;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
 /* HEADER */
 
 .header {
+  background-color: #93cce0;
   font-weight: 600;
 }
 
@@ -87,18 +119,6 @@ a:active {
   font-size: larger;
 }
 
-.menu {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/*.menu {
-  text-align: center;
-}*/
-
 .header__menu {
   background-color: #54b0a7;
   color: white;
@@ -121,11 +141,17 @@ a:active {
   background-color: #006e6f;
 }
 
-.wrapper {
-  margin: 0 auto;
-  max-width: 60rem;
-}
+/* HERO */
 
 .hero {
-  background-image: url("/assets/images/hero.jpg");
+  background: right top no-repeat black url("/assets/images/hero.png");
+  color: white;
+  padding: 6rem 0 8rem 0;
 }
+
+
+h1 {
+    font-size: 3rem;
+    line-height: 1;
+} 
+
