@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 556.67094 214.10607"
+   viewBox="0 0 616.67094 274.10607"
    version="1.1"
    id="svg90"
    sodipodi:docname="british-acupuncture-council-logo.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   width="556.67096"
-   height="214.10608"
+   width="616.67096"
+   height="274.10608"
+   inkscape:export-filename="/home/jaker/Work/acupuncturewestwales/assets/images/british-acupuncture-council-logo.png"
+   inkscape:export-xdpi="31.129999"
+   inkscape:export-ydpi="31.129999"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,21 +26,21 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="0.66911877"
-     inkscape:cx="144.21954"
-     inkscape:cy="66.505383"
-     inkscape:window-width="1024"
+     inkscape:cx="173.36235"
+     inkscape:cy="96.395443"
+     inkscape:window-width="789"
      inkscape:window-height="712"
-     inkscape:window-x="0"
-     inkscape:window-y="312"
-     inkscape:window-maximized="1"
+     inkscape:window-x="1288"
+     inkscape:window-y="282"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg90"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-top="30"
+     fit-margin-left="30"
+     fit-margin-right="30"
+     fit-margin-bottom="30" />
   <g
      id="g387"
-     transform="translate(-0.02904026,2.0946713e-4)">
+     transform="translate(29.97096,30.000209)">
     <path
        d="m 177.8,28.5 c 12.9,18.3 16.9,38.5 11.9,60.3 -5.8,25.8 -24.1,43.4 -49.1,47.7 -14.9,2.5 -29.4,0.3 -43.6,-4.4 -8.2,-2.7 -16.7,-3.8 -25,-0.8 -15.5,5.5 -23.8,17.1 -26.1,32.9 -2.3,15.8 3,32.5 17.6,41.1 a 106.8,106.8 0 0 0 126.2,-31.7 110.4,110.4 0 0 0 23.2,-65.8 v -1.1 A 106.8,106.8 0 0 0 176.8,27 a 0.6,0.6 0 0 0 0.1,0.4 z"
        fill="#2c7cb5"
@@ -49,7 +52,7 @@
   </g>
   <g
      id="g383"
-     transform="translate(-0.02904026,2.0946713e-4)">
+     transform="translate(29.97096,30.000209)">
     <path
        d="m 283.1,60.5 a 9,9 0 0 0 3.2,-7.4 8.7,8.7 0 0 0 -1.9,-5.9 9.1,9.1 0 0 0 -4.8,-2.9 8.8,8.8 0 0 0 4.1,-2.9 8.7,8.7 0 0 0 1.7,-5.4 8.6,8.6 0 0 0 -3.1,-7.1 c -2.1,-1.7 -5,-2.5 -8.7,-2.5 H 259 v 36.5 h 15.2 c 3.8,0.2 6.8,-0.7 8.9,-2.4 z m -20,-30.4 h 9.8 c 2.8,0 4.9,0.5 6.3,1.6 a 5.4,5.4 0 0 1 2.1,4.7 5.7,5.7 0 0 1 -2.1,4.8 c -1.4,1.1 -3.5,1.6 -6.2,1.6 h -9.8 V 30.1 Z m 0,29.5 V 46.3 h 10.7 c 2.8,0 4.9,0.6 6.3,1.7 a 6,6 0 0 1 2.1,5 6.1,6.1 0 0 1 -2,5 c -1.4,1.1 -3.5,1.6 -6.3,1.6 z"
        fill="#232323"
