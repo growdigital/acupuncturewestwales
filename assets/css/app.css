@@ -1,15 +1,17 @@
+/* TYPOGRAPHY */
+
 body {
-  color: #6e6c6e;
-  font-family: 'vollkorn', Georgia, serif;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  padding-top: 4rem;
-  text-align: center;
+  background-color: #DAE7DD;
+  color: #111111;
+  font-family: 'Open Sans', Optima, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4rem;
+  padding: 0;
+  margin: 0;
 }
 
-h1 {
-  color: #4a4a4a;
-
+h1, h2, h3, h4 {
+  font-family: 'Crimson Pro', Times, 'Times New Roman', serif;
 }
 
 h1, h2 {
@@ -18,7 +20,7 @@ h1, h2 {
 }
 
 p {
-  color: #9b9b9b;
+  color: #333;
 }
 
 a:link,
@@ -30,4 +32,86 @@ a:visited {
 a:hover,
 a:active {
   text-decoration: underline;
+}
+
+.smalltype {
+  font-size: small;
+}
+
+/* MENU */
+
+.menu {
+  text-align: center;
+}
+
+.menu > * {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+}
+
+/* HEADER */
+
+.header {
+  outline: 4px solid green;
+}
+
+.header__bg {
+  background-image: url("/assets/images/header.jpg");
+  background-size: 100% 100%;
+  padding-top: 5.5rem;
+}
+
+.header__title h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.header__title p {
+  padding: 0;
+  margin: 0;
+}
+
+.header p, .header h2 {
+  color: white;
+  font-family: 'Open Sans', Optima, Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 2px black;
+}
+
+.header a, .header a:link, .header a:visited {
+  color: white;
+}
+
+.header__contact a[href*="tel"] {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.header__menu {
+  background-color: /* #54b0a7*/ blue;
+  color: white;
+}
+
+.header__menu li {
+  padding: 0;
+}
+
+.header__menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header__menu a:hover {
+  background-color: #006e6f;
+}
+
+.wrapper {
+  outline: 1px solid red;
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+.hero {
+  background-image: url("/assets/images/hero.jpg");
+  outline: 1px solid blue;
 }
