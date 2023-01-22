@@ -15,14 +15,19 @@ h1, h2, h3, h4 {
 }
 
 h1, h2 {
+  color: #006e6f;
   font-weight: normal;
   margin: 0;
 }
 
 h1 {
-    font-size: 3rem;
-    line-height: 1;
+  font-size: 3rem;
+  line-height: 1;
 } 
+
+h2 {
+  font-size: 2rem;
+}
 
 p {
   color: #333;
@@ -30,7 +35,7 @@ p {
 
 a:link,
 a:visited {
-  color: #4990e2;
+  color: #0954a4;
   text-decoration: none;
 }
 
@@ -146,7 +151,11 @@ a:active {
   background-color: #006e6f;
 }
 
-/* HERO */
+/* SECTIONS */
+
+.section {
+  padding: 4rem 0;
+}
 
 .hero {
   background: right bottom no-repeat black url("/assets/images/hero.jpg");
@@ -155,9 +164,37 @@ a:active {
 }
 
 .hero h1 {
+  color: #54b0a7;
   margin-bottom: 3rem;
 }
 
 .hero .button {
   margin-bottom: 4rem;
+}
+
+.styles {
+  background-color: white;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  background-color: #006e6f;
+  text-align: center;
+}
+
+.location a, .location p {
+  color: white;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.location a {
+  font-size: 2rem;
 }
