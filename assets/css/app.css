@@ -38,28 +38,17 @@ a:active {
   font-size: small;
 }
 
-/* MENU */
-
-.menu {
-  text-align: center;
-}
-
-.menu > * {
-  display: inline-block;
-  list-style-type: none;
-  text-align: center;
-}
-
 /* HEADER */
 
 .header {
-  outline: 4px solid green;
+  font-weight: 600;
 }
 
 .header__bg {
   background-image: url("/assets/images/header.jpg");
   background-size: 100% 100%;
   padding: 5.2rem 0 0.8rem;
+  text-shadow: 1px 1px 2px black;
 }
 
 .header__flex {
@@ -80,7 +69,6 @@ a:active {
 .header p, .header h2 {
   color: white;
   font-family: 'Open Sans', Optima, Helvetica, Arial, sans-serif;
-  text-shadow: 1px 1px 2px black;
 }
 
 .header a, .header a:link, .header a:visited {
@@ -97,12 +85,24 @@ a:active {
 
 .header__contact a[href*="tel"] {
   font-size: larger;
-  font-weight: 600;
 }
 
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*.menu {
+  text-align: center;
+}*/
+
 .header__menu {
-  background-color: /* #54b0a7*/ blue;
+  background-color: #54b0a7;
   color: white;
+  font-size: 1.1rem;
 }
 
 .header__menu li {
@@ -111,9 +111,12 @@ a:active {
 
 .header__menu li a {
   color: white;
+  display: block;
+  padding: 0.6rem 0.8rem;
   text-decoration: none;
 }
 
+.header__menu .active,
 .header__menu a:hover {
   background-color: #006e6f;
 }
@@ -125,5 +128,4 @@ a:active {
 
 .hero {
   background-image: url("/assets/images/hero.jpg");
-  outline: 1px solid blue;
 }
