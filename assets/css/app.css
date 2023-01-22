@@ -59,7 +59,12 @@ a:active {
 .header__bg {
   background-image: url("/assets/images/header.jpg");
   background-size: 100% 100%;
-  padding-top: 5.5rem;
+  padding: 5.2rem 0 0.8rem;
+}
+
+.header__flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__title h2 {
@@ -80,6 +85,14 @@ a:active {
 
 .header a, .header a:link, .header a:visited {
   color: white;
+}
+
+.header__contact {
+  text-align: right;
+}
+
+.header__contact a {
+  display: block;
 }
 
 .header__contact a[href*="tel"] {
@@ -106,7 +119,6 @@ a:active {
 }
 
 .wrapper {
-  outline: 1px solid red;
   margin: 0 auto;
   max-width: 60rem;
 }
