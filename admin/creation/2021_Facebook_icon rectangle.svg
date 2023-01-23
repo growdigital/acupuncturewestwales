@@ -4,7 +4,7 @@
    viewBox="0 0 40 40"
    version="1.1"
    id="svg11"
-   sodipodi:docname="2021_Facebook_icon.svg"
+   sodipodi:docname="2021_Facebook_icon rectangle.svg"
    inkscape:export-filename="/home/jaker/Work/acupuncturewestwales/assets/images/facebook.png"
    inkscape:export-xdpi="120"
    inkscape:export-ydpi="120"
@@ -13,7 +13,20 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs15" /><sodipodi:namedview
+   id="defs15"><linearGradient
+     id="a-3"
+     x1="-277.375"
+     x2="-277.375"
+     y1="406.60181"
+     y2="407.5726"
+     gradientTransform="matrix(39.999999,0,0,-39.7778,11076.254,16210.313)"
+     gradientUnits="userSpaceOnUse"><stop
+       offset="0"
+       stop-color="#0062e0"
+       id="stop2-5" /><stop
+       offset="1"
+       stop-color="#19afff"
+       id="stop4-6" /></linearGradient></defs><sodipodi:namedview
    id="namedview13"
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -22,14 +35,14 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    showgrid="false"
-   inkscape:zoom="5.6568543"
-   inkscape:cx="16.882174"
-   inkscape:cy="17.854446"
-   inkscape:window-width="1920"
-   inkscape:window-height="1051"
-   inkscape:window-x="1024"
-   inkscape:window-y="0"
-   inkscape:window-maximized="1"
+   inkscape:zoom="2.8284272"
+   inkscape:cx="39.951533"
+   inkscape:cy="19.975766"
+   inkscape:window-width="799"
+   inkscape:window-height="712"
+   inkscape:window-x="1293"
+   inkscape:window-y="111"
+   inkscape:window-maximized="0"
    inkscape:current-layer="svg11" />
   <linearGradient
    id="a"
@@ -52,9 +65,7 @@
    class="st0"
    d="M 35,40 H 5 C 2.24,40 0,37.76 0,35 V 5 C 0,2.24 2.24,0 5,0 h 30 c 2.76,0 5,2.24 5,5 v 30 c 0,2.76 -2.24,5 -5,5 z"
    id="path4"
-   style="fill:#1d9bf0;stroke-width:0.1" /><path
-   d="m 75.440165,41.412541 c -9.5,-1.7 -16.7,-9.9 -16.7,-19.8 0,-11 9,-19.9999996 20,-19.9999996 11,0 20,8.9999996 20,19.9999996 0,9.9 -7.2,18.1 -16.7,19.8 l -1.1,-0.9 h -4.4 z"
-   id="path7" />
+   style="fill:url(#a-3);stroke-width:1;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
   <path
    fill="#ffffff"
    d="M 27.8,25.6 28.7,20 h -5.3 v -3.9 c 0,-1.6 0.6,-2.8 3,-2.8 H 29 V 8.2 C 27.6,8 26,7.8 24.6,7.8 20,7.8 16.8,10.6 16.8,15.6 V 20 h -5 v 5.629116 h 5 v 14.388862 l 6.6,-0.01744 V 25.629116 Z"
