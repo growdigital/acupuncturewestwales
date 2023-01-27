@@ -95,7 +95,7 @@ a:active {
 .header__bg {
   background-image: url("/assets/images/header.jpg");
   background-size: 100% 100%;
-  padding: 0.8rem 0;
+  padding: 4rem 0 0.3rem;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -273,6 +273,10 @@ a img:hover {
 /* phone-only */
 @media (max-width: 599px) {
 
+  .header__bg {
+    padding: 0.8rem 0;
+  }
+
   .header__flex {
     text-align: center;
   }
@@ -317,10 +321,6 @@ a img:hover {
 @media (min-width: 600px) {
   .hero {
     background-size: auto;
-  }
-
-  .header_bg {
-    padding-top: 5.2rem;
   }
 
   .header__flex {
