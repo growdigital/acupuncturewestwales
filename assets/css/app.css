@@ -22,11 +22,12 @@ h1, h2 {
 
 h1 {
   font-size: 3rem;
-  line-height: 1;
+  line-height: 0.9;
 } 
 
 h2 {
   font-size: 2rem;
+  line-height: 1;
 }
 
 p {
@@ -118,8 +119,6 @@ a:active {
   color: white;
 }
 
-
-
 .header__contact a {
   display: block;
 }
@@ -143,7 +142,7 @@ a:active {
 .header__menu li a {
   color: white;
   display: block;
-  padding: 0.6rem 0.8rem;
+  padding: 0.6rem 0.6rem;
   text-decoration: none;
 }
 
@@ -154,12 +153,13 @@ a:active {
 
 /* SECTIONS */
 
-.section {
+.home .section {
   padding: 3rem 0 3rem;
 }
 
 .hero {
   background: right bottom no-repeat black url("/assets/images/hero.jpg");
+  background-size: 100%;
   color: white;
   padding: 4rem 0;
 }
@@ -238,27 +238,16 @@ a img:hover {
 /* LAYOUT */
 
 .page .main {
-  padding-top: 3rem;
-}
-
-.flex-layout {
-  display: flex;
-  flex-direction: row;
-}
-
-.flex-left {
-  width: 70%;
-/*  height: 100vh;*/
-  padding-right: 3rem;
-}
-
-.flex-right {
-  padding-top: 6rem;
-  width: 30%;
+  padding-top: 2rem;
 }
 
 .img-width {
   width: 100%;
+}
+
+.main .section, .main .hero, .header__flex {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .aside {
@@ -292,18 +281,43 @@ a img:hover {
     margin-bottom: 0.4rem;
   }
 
+  .header__contact {
+    font-size: larger;
+    line-height: 1.3;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
+  }
+
+  /* Council logo */
+  .hero img {
+    width: 38%;
+  }
+
+  .aside {
+    text-align: center;
+  }
+
+  .aside p {
+    padding: 0 1rem;
+  }
+
+  .aside__council {
+    display: none;
+  }
+
   .u-break-mobile {
     display: block;
   }
 
-  .main .section, .main .hero {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
 }
 
 /* tablet-portrait-up */
 @media (min-width: 600px) {
+  .hero {
+    background-size: auto;
+  }
 
   .header_bg {
     padding-top: 5.2rem;
@@ -318,11 +332,40 @@ a img:hover {
     text-align: right;
   }
 
+  .header__menu li a {
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+  }
+
+  .flex-layout {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-left {
+    width: 70%;
+  /*  height: 100vh;*/
+    padding-right: 3rem;
+  }
+
+  .flex-right {
+    padding-top: 6rem;
+    width: 30%;
+  }
+
+  .footer__wrapper {
+    justify-content: space-evenly;
+  }
+
+
 }
 
 /* table-landscape-up */
-@media (min-width: 900px) {
-  /* … */
+@media (min-width: 960px) {
+  .main .section, .main .hero, .header__flex {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 /* desktop-up */
